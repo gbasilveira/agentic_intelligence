@@ -1,0 +1,127 @@
+.article-content h2 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  scroll-margin-top: 100px;
+}
+
+.article-content h3 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  scroll-margin-top: 100px;
+}
+
+.article-content p {
+  font-family: var(--font-roboto);
+  margin-bottom: 1.25rem;
+  line-height: 1.8;
+}
+
+.article-content ul,
+.article-content ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.article-content li {
+  font-family: var(--font-roboto);
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+.article-content strong {
+  font-weight: 600;
+  color: hsl(var(--primary));
+}
+
+.article-content a {
+  color: hsl(var(--primary));
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: all 0.2s ease;
+}
+
+.article-content a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.article-content blockquote {
+  border-left: 4px solid hsl(var(--primary));
+  padding-left: 1.5rem;
+  margin-left: 0;
+  margin-right: 0;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.article-content code {
+  font-family: var(--font-mono, monospace);
+  background-color: hsl(var(--muted));
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.article-content pre {
+  background-color: hsl(var(--muted));
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+.article-content pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+.article-content img {
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+}
+
+.article-content figure {
+  margin: 2rem 0;
+}
+
+.article-content figcaption {
+  text-align: center;
+  font-size: 0.875rem;
+  color: hsl(var(--muted-foreground));
+  margin-top: 0.5rem;
+}
+
+.article-content hr {
+  border: none;
+  border-top: 1px solid hsl(var(--border));
+  margin: 2rem 0;
+}
+
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+.article-content th {
+  background-color: hsl(var(--muted));
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75rem;
+  border: 1px solid hsl(var(--border));
+}
+
+.article-content td {
+  padding: 0.75rem;
+  border: 1px solid hsl(var(--border));
+}
+
+.article-content tr:nth-child(even) {
+  background-color: hsl(var(--muted) / 0.3);
+}

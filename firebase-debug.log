@@ -1,0 +1,132 @@
+[debug] [2025-10-28T12:34:47.641Z] ----------------------------------------------------------------------
+[debug] [2025-10-28T12:34:47.643Z] Command:       /usr/local/bin/firebase /home/gbas/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2025-10-28T12:34:47.643Z] CLI Version:   14.22.0
+[debug] [2025-10-28T12:34:47.643Z] Platform:      linux
+[debug] [2025-10-28T12:34:47.643Z] Node Version:  v20.18.2
+[debug] [2025-10-28T12:34:47.643Z] Time:          Tue Oct 28 2025 12:34:47 GMT+0000 (Western European Standard Time)
+[debug] [2025-10-28T12:34:47.644Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-10-28T12:34:47.850Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-28T12:34:47.850Z] > authorizing via signed-in user (gbasilveira@gmail.com)
+[debug] [2025-10-28T12:34:47.850Z] [iam] checking project agenticintelligence-ce0ec for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-10-28T12:34:47.851Z] Checked if tokens are valid: true, expires at: 1761658437475
+[debug] [2025-10-28T12:34:47.852Z] Checked if tokens are valid: true, expires at: 1761658437475
+[debug] [2025-10-28T12:34:47.853Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/agenticintelligence-ce0ec:testIamPermissions [none]
+[debug] [2025-10-28T12:34:47.853Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/agenticintelligence-ce0ec:testIamPermissions x-goog-quota-user=projects/agenticintelligence-ce0ec
+[debug] [2025-10-28T12:34:47.853Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/agenticintelligence-ce0ec:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-10-28T12:34:48.571Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/agenticintelligence-ce0ec:testIamPermissions 200
+[debug] [2025-10-28T12:34:48.571Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/agenticintelligence-ce0ec:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-10-28T12:34:48.572Z] Checked if tokens are valid: true, expires at: 1761658437475
+[debug] [2025-10-28T12:34:48.572Z] Checked if tokens are valid: true, expires at: 1761658437475
+[debug] [2025-10-28T12:34:48.572Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/agenticintelligence-ce0ec [none]
+[debug] [2025-10-28T12:34:48.877Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/agenticintelligence-ce0ec 200
+[debug] [2025-10-28T12:34:48.877Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/agenticintelligence-ce0ec {"projectId":"agenticintelligence-ce0ec","projectNumber":"951078950055","displayName":"agenticintelligence","name":"projects/agenticintelligence-ce0ec","resources":{"hostingSite":"agenticintelligence-ce0ec"},"state":"ACTIVE","etag":"1_97dd39be-8c21-424c-9135-00ba5a0200c1"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 15.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2025-10-28T12:35:07.084Z] Checked if tokens are valid: true, expires at: 1761658437475
+[debug] [2025-10-28T12:35:07.084Z] Checked if tokens are valid: true, expires at: 1761658437475
+[debug] [2025-10-28T12:35:07.084Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/agenticintelligence-ce0ec/sites/agenticintelligence-ce0ec [none]
+[debug] [2025-10-28T12:35:08.012Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/agenticintelligence-ce0ec/sites/agenticintelligence-ce0ec 200
+[debug] [2025-10-28T12:35:08.012Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/agenticintelligence-ce0ec/sites/agenticintelligence-ce0ec {"name":"projects/agenticintelligence-ce0ec/sites/agenticintelligence-ce0ec","defaultUrl":"https://agenticintelligence-ce0ec.web.app","type":"DEFAULT_SITE"}
+[info]    ▲ Next.js 15.5.6
+
+[info]    - Environments: .env
+
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully in 44s
+
+[info]    Skipping validation of types
+
+[info]    Skipping linting
+
+[info]    Collecting page data ...
+
+[info]    Generating static pages (0/21) ...
+
+[info]    Generating static pages (5/21) 
+
+[info]    Generating static pages (10/21) 
+
+[info]    Generating static pages (15/21) 
+
+[info]  ✓ Generating static pages (21/21)
+
+[info]    Finalizing page optimization ...
+
+[info]    Collecting build traces ...
+
+[info] 
+
+[info] Route (app)                                 Size  First Load JS
+┌ ○ /                                    13.3 kB         131 kB
+├ ○ /_not-found                            999 B         103 kB
+├ ○ /about                               1.04 kB         111 kB
+├ ○ /ai-agents                             882 B         111 kB
+├ ƒ /ai-agents/[slug]                      883 B         111 kB
+├ ○ /auth/forgot-password                2.49 kB         121 kB
+├ ○ /auth/login                          7.19 kB         131 kB
+├ ○ /auth/logout                         2.72 kB         124 kB
+├ ○ /auth/signup                         7.69 kB         132 kB
+├ ○ /blog                                1.74 kB         126 kB
+├ ƒ /blog/[slug]                         5.77 kB         124 kB
+├ ○ /community                           2.31 kB         127 kB
+├ ○ /community/members                   1.74 kB         126 kB
+├ ƒ /community/members/[id]              1.74 kB         126 kB
+├ ○ /community/partners                  1.74 kB         126 kB
+├ ƒ /community/partners/[id]             1.74 kB         126 kB
+├ ○ /community/projects                  1.74 kB         126 kB
+├ ƒ /community/projects/[id]             3.04 kB         131 kB
+├ ○ /events                              5.43 kB         130 kB
+├ ƒ /events/[slug]                       9.67 kB         138 kB
+├ ○ /events/propose                      28.2 kB         167 kB
+├ ○ /privacy-policy                        879 B         106 kB
+├ ○ /profile                             34.1 kB         153 kB
+├ ○ /resources                           9.29 kB         151 kB
+└ ○ /terms-of-service                      879 B         106 kB
++ First Load JS shared by all             102 kB
+  ├ chunks/7522-7df2d7ffdc55734e.js      45.6 kB
+  ├ chunks/c05cef46-91def388280bf7a5.js  54.2 kB
+  └ other shared chunks (total)          1.95 kB
+
+
+
+[info] ○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+[info] Building a Cloud Function to run this application. This is needed due to:
+[info]  • non-static component /ai-agents/[slug]/page
+[info]  • non-static component /community/members/[id]/page
+[info]  • non-static component /community/partners/[id]/page
+[info]  • non-static component /community/projects/[id]/page
+[info]  • non-static component /events/[slug]/page
+[debug] [2025-10-28T12:36:08.629Z]  • non-static component /blog/[slug]/page
+[debug] [2025-10-28T12:36:08.629Z]  • advanced rewrites
+[info]  • and 2 other reasons, use --debug to see more
+[info] 
+[debug] [2025-10-28T12:37:15.921Z] Checked if tokens are valid: true, expires at: 1761658437475
+[debug] [2025-10-28T12:37:15.921Z] Checked if tokens are valid: true, expires at: 1761658437475
+[debug] [2025-10-28T12:37:15.922Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/agenticintelligence-ce0ec/sites/agenticintelligence-ce0ec [none]
+[debug] [2025-10-28T12:37:16.713Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/agenticintelligence-ce0ec/sites/agenticintelligence-ce0ec 200
+[debug] [2025-10-28T12:37:16.713Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/agenticintelligence-ce0ec/sites/agenticintelligence-ce0ec {"name":"projects/agenticintelligence-ce0ec/sites/agenticintelligence-ce0ec","defaultUrl":"https://agenticintelligence-ce0ec.web.app","type":"DEFAULT_SITE"}
+[debug] [2025-10-28T12:37:57.246Z] Error: Command failed: npm i --omit dev --no-audit
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at checkExecSyncError (node:child_process:891:11)
+    at Object.execSync (node:child_process:963:15)
+    at execSync (pkg/prelude/bootstrap.js:2120:30)
+    at prepareFrameworks (/home/gbas/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/frameworks/index.js:373:42)
+    at async deploy (/home/gbas/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/deploy/index.js:79:9)
+[error] 
+[error] Error: An unexpected error has occurred.
